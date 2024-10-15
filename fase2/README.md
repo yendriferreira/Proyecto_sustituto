@@ -32,6 +32,12 @@ Ejecutar script run_scripts:
 comandos en orden:
 docker run -v ${PWD}:/app modelo-predictivo python 02_run_scripts.py
 
-Esto nos creara ambos archivos y además nos dara el modelo predictivo ya entrenado, tal cual se pidió para esta entrega, todo con el contenedor de docker y ejecutado en el mismo, teniendo este resultado en la consola "Modelo entrenado y guardado como 'modelo_entrenado.pkl'.
+Esto nos creara ambos archivos y además nos dara el modelo predictivo ya entrenado, tal cual se pidió para esta entrega, todo con el contenedor de docker y ejecutado en el mismo, teniendo este resultado en la consola 
+
+"Modelo entrenado y guardado como 'modelo_entrenado.pkl'.
+
+
 Precisión del modelo en el conjunto de prueba: 0.344
+
+
 Gráfico guardado como 'predicciones_vs_valores_reales.png'."
