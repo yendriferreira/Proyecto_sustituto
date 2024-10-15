@@ -30,7 +30,7 @@ data = pd.read_csv(input_file)
 print("Columnas en el DataFrame de entrada:", data.columns.tolist())
 
 # Aplicar el mismo preprocesamiento que en train.py
-X = data.drop("RENDIMIENTO_GLOBAL", axis=1, errors='ignore')  # En caso de que no exista la columna en el archivo de test
+X = data.drop("RENDIMIENTO_GLOBAL", axis=1, errors='ignore')  
 
 # Aplicar One-Hot Encoding a las variables categóricas como en el entrenamiento
 X = pd.get_dummies(X, drop_first=True)

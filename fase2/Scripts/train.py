@@ -30,9 +30,6 @@ if 'datetime' in data.columns:
     data['datetime'] = pd.to_datetime(data['datetime'])
     data['datetime'] = data['datetime'].apply(lambda x: x.timestamp())
 
-# Aquí puedes agregar otros pasos de limpieza según sea necesario:
-# - Manejo de valores faltantes
-# - Transformación de variables categóricas
 
 # Separar características (X) y etiquetas (y)
 X = data.drop("RENDIMIENTO_GLOBAL", axis=1)
