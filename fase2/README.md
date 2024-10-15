@@ -5,7 +5,9 @@ NOTA IMPORTANTE: TENER INICIADO EL DOCKER
 comandos en este orden: 
 
 cd fase2
+
 docker build -t modelo-predictivo .
+
 cd ..
 
 
