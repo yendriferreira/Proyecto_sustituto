@@ -1,3 +1,8 @@
+Antes de esto pretendemos que ya se extrajo el train.rar, en caso de que no, hágalo. 
+
+
+
+
 Pasos para ejecutar -BUILDING- 
 
 NOTA IMPORTANTE: TENER INICIADO EL DOCKER
